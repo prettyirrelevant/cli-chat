@@ -81,7 +81,7 @@ def not_banned(f):
                     jsonify(status="error", msg="Sorry, your account has been banned!"),
                     403,
                 )
-
+            return socketio.disconnect()
         return f(*args, **kwargs)
 
     return decorator
