@@ -27,6 +27,9 @@ app.config["JWT_SECRET_KEY"] = (
     environ.get("JWT_SECRET_KEY")
     or "cfad2708c23ab3bb4da83f489eb3bb2a3f12066350b20e8862157cca33b9334a"
 )
+# definitely don't try this in a real world application. 
+# I used this to ease the stress of having to think about security and focus on other features.
+# Please! You are better off using session which is simpler and battle tested.
 app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(days=365)
 app.config["SQLALCHEMY_DATABASE_URI"] = (
     environ.get("DATABASE_URL") or "sqlite:///chatapp.db"
