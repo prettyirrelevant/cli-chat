@@ -14,8 +14,7 @@
       "generator": "secret"
     },
     "DEBUG": {
-      "description": "Whether the application should run in DEBUG_MODE",
-      "required": false,
+      "description": "Whether the application should run in DEVELOPMENT. Accepts either `false` or `true`",
       "value": false
     }
   }
