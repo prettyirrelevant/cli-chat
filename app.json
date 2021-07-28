@@ -15,6 +15,7 @@
     },
     "DEBUG": {
       "description": "Whether the application should run in DEBUG_MODE",
+      "required": false,
       "value": false
     }
   }
