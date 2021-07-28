@@ -11,4 +11,4 @@ A pretty simple command-line realtime chat application built using Flask, Socket
 -  End-to-End Encryption per say.
 
 ## 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prettyirrelevant/cli-chat)
