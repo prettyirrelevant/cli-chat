@@ -1,0 +1,21 @@
+{
+  "name": "Cli Chat App",
+  "description": "A command-line chat application using Flask, SocketIO and Click.",
+  "repository": "https://github.com/prettyirrelevant/cli-chat",
+  "keywords": ["socketio", "real-time", "flask", "python", "click"],
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "env": {
+    "SECRET_KEY": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "JWT_SECRET_KEY": {
+      "description": "JWT secret key for Flask-JWT-Extended",
+      "generator": "secret"
+    },
+    "DEBUG": {
+      "description": "Whether the application should run in DEBUG_MODE",
+      "value": false
+    }
+  }
+}
