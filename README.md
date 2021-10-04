@@ -17,9 +17,9 @@ A pretty simple command-line realtime chat application built using Flask, Socket
 
 To begin installation clone the repo into preferred directory
 ```
-git clone https://github.com/Johnkayode/Dominos-bot.git
+git clone https://github.com/prettyirrelevant/cli-chat.git
 ```
-Activate a virtual environment (not necessary)
+Activate a virtual environment
 
 For Windows
 ```
