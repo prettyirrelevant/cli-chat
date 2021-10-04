@@ -7,7 +7,7 @@ import requests
 import socketio
 from cryptography.fernet import Fernet
 
-URL = "https://cli-chatapp-demo.herokuapp.com"
+URL = "https://cli-chatapp.herokuapp.com"
 
 # Encryption Key for messages and secret
 ENCRYPTION_KEY = b"r33YpSlDxWaRVYUA1quBSv8wezWfOwVt-zcJw2PvpVI="
